@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/pk/")
-public class indexController {
+public class IndexController {
 
     @RequestMapping("index/")
     public String index() {
